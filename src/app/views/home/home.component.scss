@@ -1,0 +1,20 @@
+@import 'src/sass/_mixins.scss';
+@import 'src/sass/_variables.scss';
+
+#home {
+
+  .btn-group {
+
+    .btn {
+      margin: 5px 10px;
+
+      &:first-child {
+        @include button-style($blue, 8px, #fff);
+      }
+
+      &:last-child {
+        @include button-style($dark-gray, 8px, #fff);
+      }
+    }
+  }
+}

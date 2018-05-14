@@ -1,6 +1,27 @@
-.btn-group {
+@import 'src/sass/_variables.scss';
+@import 'src/sass/_mixins.scss';
 
-  .btn {
-    margin: 5px 10px;
+body {
+  font: 100% Helvetica, sans-serif;
+  color: $dark-gray;
+}
+
+.navbar {
+
+  .nav {
+
+    li {
+
+      a {
+        padding: 15px;
+        color: $dark-gray;
+
+        &.active,
+        &:hover {
+          color: $blue;
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }

@@ -1,0 +1,5 @@
+@mixin button-style($bg-color, $radius, $text-color) {
+  background: $bg-color;
+  border-radius: $radius;
+  color: $text-color;
+}
