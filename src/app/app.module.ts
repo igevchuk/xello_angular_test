@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { TooltipComponent } from './tooltip/tooltip.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TooltipComponent
   ],
   imports: [
     BrowserModule
