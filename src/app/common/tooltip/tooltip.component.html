@@ -1,3 +1,6 @@
-<div *ngIf="show" class="app-tooltip">
-  Tooltip
+<div *ngIf="show" class="app-tooltip" role="tooltip">
+  <div class="app-tooltip-arrow"></div>
+  <div class="app-tooltip-inner">
+    {{ label }}
+  </div>
 </div>

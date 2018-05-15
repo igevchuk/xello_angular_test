@@ -6,15 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  showTooltip: Boolean = false;
-
   constructor() { }
 
   ngOnInit() {
   }
-
-  toggleTooltip() {
-    this.showTooltip = !this.showTooltip;
-  }
-
 }

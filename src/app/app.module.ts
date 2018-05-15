@@ -3,8 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
-import { AboutComponent } from './views/about/about.component';
-import { ContactComponent } from './views/contact/contact.component';
+import { TaskComponent } from './views/task/task.component';
 import { TooltipComponent } from './common/tooltip/tooltip.component';
 import { AppRouter } from './app.routing';
 
@@ -13,8 +12,7 @@ import { AppRouter } from './app.routing';
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent,
-    ContactComponent,
+    TaskComponent,
     TooltipComponent
   ],
   imports: [

@@ -7,12 +7,11 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class TooltipComponent implements OnInit {
   @Input() show: Boolean;
+  @Input() label: String;
 
-  constructor() { }
-
-  ngOnInit() {
-    console.log(this.show);
-
+  constructor() {
   }
 
+  ngOnInit() {
+  }
 }

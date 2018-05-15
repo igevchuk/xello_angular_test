@@ -1,0 +1,24 @@
+<div id="task">
+  <h2>Angular Task</h2>
+
+  <div class="btn-group">
+    <button
+      (click)="toggleTooltip()"
+      class="btn btn-lg"
+    >
+      Click me!
+    </button>
+
+    <button
+      (click)="toggleTooltip()"
+      class="btn btn-lg"
+    >
+      Click me!
+    </button>
+
+    <app-tooltip [show]='showTooltip' [label]='Hello'></app-tooltip>
+  </div>
+</div>
+
+
+
